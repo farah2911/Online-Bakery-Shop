@@ -1,0 +1,430 @@
+/*
+STYLES.CSS
+*/
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+
+.header-bg
+{
+    background-image: url(../images/img.jpg); 
+    height: 740px;
+}
+.navbar
+{
+   background-color: rgba(86, 83, 76, 0.529);
+}
+    .logo
+        {
+            margin: 10px 0px;
+        }
+  .logo a
+    {
+      font-size: 30px;
+      font-stretch: expanded;
+      font-family: 'Rouge Script', serif;
+      color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .logo a:hover 
+                {
+                  color: #dfc691;
+                }
+.nk-navbar li
+{
+    float:left;
+    list-style: none;
+}
+    .nk-navbar li a
+    {
+       text-decoration: none;
+    }
+.navbar-left
+{
+    margin-left: 60px;
+} 
+    .web-links
+        {
+         margin:20px 0px 10px 60px;
+        }
+
+    .web-links a
+    {
+       font-size: 14px;
+      font-family: 'Alegreya', serif;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;  
+    }
+    .web-links a:hover
+    {
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ffffff;
+    }
+   .social-links
+    {
+       margin:20px 05px 0px 5px; 
+    }
+    .social-links a 
+        {
+          color: white;
+        }
+    .social-links a:hover 
+            {
+              color: #dfc691;
+            }
+.header-content
+{
+    text-align: center;
+    margin-top: 170px;
+    background-color: rgba(86, 83, 76, 0.192);
+}
+
+hr {
+	border-top: 4px solid #a47d5e; 
+	width: 450px;
+	margin-top: 15px;
+}
+    .main-text
+    {
+      font-size: 92px;
+      font-family: 'Playfair Display', serif;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
+      z-index: 250; 
+    }
+    .disc-text
+    {
+      font-size: 24px;
+      font-family: 'Proxima Nova', 'Open Sans';
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
+      z-index: 247;
+      margin-top: 30px
+    }
+    .menu-btn
+    {
+      padding: 10px 50px;
+      border-width: 1px;
+      border-color: rgb(158, 156, 147);
+      border-style: dashed;
+      background-color: rgba(86, 83, 76, 0.529);  
+      margin-top: 30px;
+    }
+    .menu-btn a
+    {
+      font-size: 14px;
+      font-family: 'Myriad Pro';
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-stretch: expanded;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .menu-btn a:hover
+    {
+        color:#a47d5e;
+    }
+
+#about
+{
+  background-image: url(../images/img-texture.jpg);
+}
+.title{
+      font-size: 48px;
+      font-family: 'Alegreya';
+      color: rgb(86, 83, 76);
+      font-weight: bold;
+    }
+    .tagline
+    {
+    color: #a47d5e;
+    font-family: 'Alegreya';
+    font-stretch: expanded;
+    text-transform: uppercase;
+    margin-top: -10px;
+    }
+    .para
+    {
+      font-size: 14px;
+      font-family: 'Proxima Nova';
+      color: rgb(86, 83, 76);
+      margin: 50px 0px 30px 0px;
+        line-height: 25px;
+    }
+   .chef{
+      font-size: 24px;
+      font-family: 'Alegreya';
+      color: rgb(86, 83, 76);
+      font-weight: bold;
+    }
+    .cook
+    {
+     margin: 30px 0px;
+    }
+    .fname, .lname {
+      font-size: 24px;
+      font-family: 'Alegreya';
+      color: rgb(86, 83, 76);
+      margin: 0px 20px;
+      padding: 10px 10px;
+      border-top: solid 1px #d7d5ca;
+      border-bottom: solid 1px #d7d5ca;
+    }
+    .quote {
+      font-size: 24px;
+      font-family: 'Rouge Script', serif;
+      color: rgb(164, 125, 94);
+    } 
+.about-img
+{
+  padding: 100px 50px;
+}
+#news
+{
+    background-image: url(../images/news-placeholder.jpg);
+    background-repeat: no-repeat;
+}
+    #news .news-img img
+    {
+        margin:100px 80px;
+    }
+    .news-content
+    {
+        margin-top:200px;
+        margin-left: 110px;
+    }
+    .news-box
+    {
+    margin-top: 40px;
+    -webkit-box-shadow: -25px 54px 45px 0 #c2beba;
+box-shadow: -25px 54px 45px 0 #c2beba;
+    }
+
+#reservations
+{
+    background-image: url(../images/reservations-placeholder.jpg);
+}
+    .heading1
+    {
+      font-size: 60px;
+      font-family: 'Alegreya';
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+    .para1
+    {
+        color:  #c8a593;
+        font-family: 'Alegreya';
+        font-stretch: expanded;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+    .reserv-details
+    {
+        margin-top: 40px;
+    }
+    .heading2
+    {
+      font-size: 30px;
+      font-family: 'Alegreya';
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+    .para2
+    {
+       color:  #878787;
+        font-family: 'Alegreya';
+        font-stretch: expanded;
+        font-size: 14px;
+        margin-top: -10px;  
+    }
+    .price
+    {
+      font-size: 36px;
+      font-family: 'Alegreya';
+      color: rgb(223, 198, 145);
+    }
+.bakery-post
+{
+   background-color: rgba(255, 255, 255, 0.9); 
+    margin: 50px;
+    padding: 80px 50px;
+}
+    .read-btn
+    {
+        margin-top: 40px;
+      padding: 10px 50px;
+      background-color: rgba(255, 255, 255,0);
+      border: 1px solid #9e9c93;
+    }
+    .read-btn a
+    {
+      font-size: 18px;
+      font-family: 'Alegreya';
+      color: rgb(164, 125, 94);
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+    }
+
+#menu
+{
+    background-color: #f3f1e9;
+}
+#menu .title
+{
+    margin-top: 30px;
+}
+.menu-dish
+{
+    margin-top: 40px;
+}
+.dish-heading
+{
+  font-size: 30px;
+  font-family: 'Alegreya';
+  color: rgb(164, 125, 94);
+  font-weight: bold;
+  line-height: 1;
+}
+.dish-para
+{
+  font-size: 14px;
+  font-family: 'Proxima Nova';
+  color: rgb(86, 83, 76);
+  line-height: 1.429;
+}
+.recipe-btn
+{
+  border-width: 1px;
+  border-color: rgb(223, 198, 145);
+  border-style: dashed;
+  background-color: rgba(255, 255, 255,1);
+  margin-left: -15px;
+  margin-top: -50px;    
+  padding: 15px;
+}
+.menu-img
+{
+  padding: 40px 0px;  
+}
+.menu-bar
+{
+    margin-top: -20px;
+}
+.menu-box1
+{
+}
+.menu-box2
+{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding: 40px;
+}
+.menu-box2 p,.menu-box3 p
+{
+  font-size: 18px;
+  font-family: "Alegreya";
+  color: rgb(164, 125, 94);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.menu-box2 .num 
+{
+  font-size: 52px;
+  font-family: 'Myriad Pro';
+    color: black;
+}
+
+.menu-box3
+{
+  background-image: url(../images/menu-box-3.jpg);
+  padding: 35px;
+     -webkit-box-shadow: 0px 0px 54px 0 #333333;
+    box-shadow: 0px 0px 54px 0 #333333;
+}
+.menu-box3 .num
+{
+    font-size: 52px;
+  font-family: 'Myriad Pro';
+    color: #dfc691;
+}
+
+#contact
+{
+    background-color: #f3f1e9;
+}
+.fnav
+{
+  margin: 10px 110px;
+}
+
+.flinks
+{
+padding: 20px 0px;
+}
+.flinks a
+{
+  font-size: 14px;
+  font-family: 'Alegreya';
+    font-weight: bold;
+  color: rgb(86, 83, 76);
+  text-transform: uppercase;
+}
+.flinks a:hover
+{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(86, 83, 76);
+}
+
+
+@media (max-width: 991px) {
+    .navbar-header{
+        float: none;
+   }
+.logo
+    {
+    padding: 0px 20px;
+    }
+  .navbar-left{
+      float: none !important;
+      margin-left:-60px;
+  }
+  .navbar-right{
+        float: none !important;
+        }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 05px;
+      padding-bottom: 05px;
+  }
+   .navbar-collapse.collapse.in {
+        display: block!important;
+}
+   
+@media (max-width: 512px)
+    {
+         .main-text
+        {
+          font-size:50px;
+        }
+        hr
+        {
+         width: 250px;
+        }
+    }
